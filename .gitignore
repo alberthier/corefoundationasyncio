@@ -1,0 +1,8 @@
+/venv/
+/.vscode/
+/tests/gui/.eggs
+/tests/gui/build
+/tests/gui/dist
+/tests/gui/gui.xcodeproj/project.xcworkspace/
+__pycache__/
+.DS_Store

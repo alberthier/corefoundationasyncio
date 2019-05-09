@@ -1,0 +1,74 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		07A089BD2282239A00A0B7CD /* guidemo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = guidemo.xib; sourceTree = "<group>"; };
+		07A089BE2282261700A0B7CD /* guidemo.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = guidemo.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07A089B62282235700A0B7CD = {
+			isa = PBXGroup;
+			children = (
+				07A089BD2282239A00A0B7CD /* guidemo.xib */,
+				07A089BE2282261700A0B7CD /* guidemo.py */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		07A089B72282235700A0B7CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 07A089BA2282235700A0B7CD /* Build configuration list for PBXProject "gui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07A089B62282235700A0B7CD;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		07A089BB2282235700A0B7CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		07A089BC2282235700A0B7CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07A089BA2282235700A0B7CD /* Build configuration list for PBXProject "gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A089BB2282235700A0B7CD /* Debug */,
+				07A089BC2282235700A0B7CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07A089B72282235700A0B7CD /* Project object */;
+}
