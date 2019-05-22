@@ -35,7 +35,7 @@ class CoreFoundationEventLoop(asyncio.SelectorEventLoop):
     This allows integration of Cocoa GUI apps with asyncio
     """
 
-    def __init__(self, console_app = False, eventloop_args = ()):
+    def __init__(self, console_app = False, *eventloop_args):
         self._console_app = console_app
         self._eventloop_args = eventloop_args
         self._registered_fds = {}
