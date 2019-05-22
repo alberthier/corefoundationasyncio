@@ -4,5 +4,7 @@
 /tests/gui/build
 /tests/gui/dist
 /tests/gui/gui.xcodeproj/project.xcworkspace/
+/corefoundationasyncio.egg-info/
+/dist/
 __pycache__/
 .DS_Store
