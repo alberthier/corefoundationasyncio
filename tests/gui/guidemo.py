@@ -16,8 +16,8 @@ class GuiDemo(NSWindowController):
         return stdout.decode() if proc.returncode == 0 else stderr.decode()
 
     async def request_(self, url):
-        el = asyncio.get_event_loop()
-        request = await el.run_in_executor(None, urlopen, url)
+        loop = asyncio.get_event_loop()
+        request = await loop.run_in_executor(None, urlopen, url)
         return str(request.read(), 'utf-8')
 
     async def asynctask(self):
@@ -55,6 +55,9 @@ if __name__ == "__main__":
     NSApp.activateIgnoringOtherApps_(True)
 
     # Configure asyncio to use CoreFoundationEventLoop
-    el = CoreFoundationEventLoop()
-    asyncio.set_event_loop(el)
-    el.run_forever()
+    loop = CoreFoundationEventLoop()
+    asyncio.set_event_loop(loop)
+    try:
+        loop.run_forever()
+    finally:
+        loop.close()
