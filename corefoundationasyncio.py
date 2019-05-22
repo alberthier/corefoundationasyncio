@@ -154,7 +154,7 @@ class CoreFoundationEventLoop(asyncio.SelectorEventLoop):
         if cb is None:
             return False
         if len(entry.callbacks) != 0:
-            CFFileDescriptorDisableCallBacks(entry.cf_fd, ~event)
+            CFFileDescriptorDisableCallBacks(entry.cf_fd, event)
         else:
             CFRunLoopRemoveSource(self._runloop, entry.cf_source, kCFRunLoopDefaultMode)
         return True
