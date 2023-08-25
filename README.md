@@ -39,7 +39,7 @@ This module also provides a [selector](https://docs.python.org/3/library/selecto
 $ pip3 install corefoundationasyncio
 ```
 
-This module depends on [pyobjc](https://pypi.org/project/pyobjc/)
+This module depends on [pyobjc-framework-Cocoa](https://pypi.org/project/pyobjc-framework-Cocoa/)
 
 ## Contributing
 
