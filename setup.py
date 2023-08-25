@@ -23,6 +23,6 @@ setup(
         'Operating System :: MacOS :: MacOS X',
         'Programming Language :: Python',
     ],
-    install_requires=['pyobjc'],
+    install_requires=['pyobjc-framework-Cocoa'],
     py_modules = ['corefoundationasyncio', 'corefoundationselector'],
 )
